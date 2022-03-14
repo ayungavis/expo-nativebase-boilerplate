@@ -1,5 +1,5 @@
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { RootStackScreenProps } from "../types/navigation.types";
+import { RootStackScreenProps } from "../types/navigation";
 
 const NotFoundScreen = ({ navigation }: RootStackScreenProps<"NotFound">): JSX.Element => {
   return (

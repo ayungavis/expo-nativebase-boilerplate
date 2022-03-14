@@ -9,7 +9,7 @@ import * as React from "react";
 import NotFoundScreen from "../screens/not-found.screen";
 import RootScreen from "../screens/root.screen";
 
-import { RootStackParamList } from "../types/navigation.types";
+import { RootStackParamList } from "../types/navigation";
 import LinkingConfiguration from "./linking-configuration";
 
 export default function Navigation() {

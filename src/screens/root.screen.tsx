@@ -1,5 +1,5 @@
 import { Container, Heading, Text } from "native-base";
-import { RootStackScreenProps } from "../types/navigation.types";
+import { RootStackScreenProps } from "../types/navigation";
 
 const RootScreen = ({}: RootStackScreenProps<"Root">): JSX.Element => {
   return (
