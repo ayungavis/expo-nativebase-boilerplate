@@ -3,7 +3,8 @@ import Navigation from "./src/navigation";
 import useCachedResources from "./src/hooks/use-cached-resources";
 import { NativeBaseProvider } from "native-base";
 import { Provider } from "react-redux";
-import { store } from "./src/store/store";
+import { store, persistor } from "./src/store/store";
+import { PersistGate } from "redux-persist/integration/react";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -14,9 +15,11 @@ export default function App() {
     return (
       <SafeAreaProvider>
         <Provider store={store}>
-          <NativeBaseProvider>
-            <Navigation />
-          </NativeBaseProvider>
+          <PersistGate loading={null} persistor={persistor}>
+            <NativeBaseProvider>
+              <Navigation />
+            </NativeBaseProvider>
+          </PersistGate>
         </Provider>
       </SafeAreaProvider>
     );
