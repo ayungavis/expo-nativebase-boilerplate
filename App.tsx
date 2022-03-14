@@ -1,11 +1,17 @@
-import { StatusBar } from "expo-status-bar";
-import { Text, View } from "react-native";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import Navigation from "./src/navigation";
+import useCachedResources from "./src/hooks/use-cached-resources";
 
 export default function App() {
-  return (
-    <View>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  const isLoadingComplete = useCachedResources();
+
+  if (!isLoadingComplete) {
+    return null;
+  } else {
+    return (
+      <SafeAreaProvider>
+        <Navigation />
+      </SafeAreaProvider>
+    );
+  }
 }
