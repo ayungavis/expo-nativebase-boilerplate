@@ -1,7 +1,7 @@
-import { Container, Heading, Text } from "native-base";
-import { RootStackScreenProps } from "../types/navigation";
+import React from 'react';
+import { Container, Heading, Text } from 'native-base';
 
-const RootScreen = ({}: RootStackScreenProps<"Root">): JSX.Element => {
+function RootScreen(): JSX.Element {
   return (
     <Container flex={1} alignItems="center" justifyContent="center" mx="auto">
       <Heading>Root screen</Heading>
@@ -10,6 +10,6 @@ const RootScreen = ({}: RootStackScreenProps<"Root">): JSX.Element => {
       </Text>
     </Container>
   );
-};
+}
 
 export default RootScreen;

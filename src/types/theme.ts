@@ -1,3 +1,3 @@
 export interface ThemeState {
-  colorMode: "light" | "dark";
+  colorMode: 'light' | 'dark';
 }

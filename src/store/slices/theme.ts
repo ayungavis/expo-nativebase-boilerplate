@@ -1,12 +1,13 @@
-import { createSlice } from "@reduxjs/toolkit";
-import { ThemeState } from "../../types/theme";
+/* eslint-disable no-param-reassign */
+import { createSlice } from '@reduxjs/toolkit';
+import { ThemeState } from '../../types/theme';
 
 const initialState: ThemeState = {
-  colorMode: "light",
+  colorMode: 'light',
 };
 
 const themeSlice = createSlice({
-  name: "theme",
+  name: 'theme',
   initialState,
   reducers: {
     setColorMode: (state, action) => {
