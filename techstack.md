@@ -50,7 +50,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ayungavis/expo-nativebase-boilerplate](https://github.com/ayungavis/expo-nativebase-boilerplate)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|41<br/>Tools used|12/14/23 <br/>Report generated|
+|43<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -224,9 +224,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (23)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (25)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (23)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (25)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -244,7 +244,9 @@ Full tech stack [here](/techstack.md)
 |[eslint-plugin-prettier](https://www.npmjs.com/eslint-plugin-prettier)|v4.0.0|03/14/22|Wahyu Adi Kurniawan |MIT|N/A|
 |[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.29.4|03/14/22|Wahyu Adi Kurniawan |MIT|N/A|
 |[eslint-plugin-react-hooks](https://www.npmjs.com/eslint-plugin-react-hooks)|v4.3.0|03/14/22|Wahyu Adi Kurniawan |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v7.0.4|03/14/22|Wahyu Adi Kurniawan |MIT|N/A|
 |[jest-expo](https://www.npmjs.com/jest-expo)|v44.0.1|03/14/22|Wahyu Adi Kurniawan |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v12.3.5|03/14/22|Wahyu Adi Kurniawan |MIT|N/A|
 |[npm-run-all](https://www.npmjs.com/npm-run-all)|v4.1.5|03/14/22|Wahyu Adi Kurniawan |MIT|N/A|
 |[react-dom](https://www.npmjs.com/react-dom)|v17.0.1|03/14/22|Wahyu Adi Kurniawan |MIT|N/A|
 |[react-native](https://www.npmjs.com/react-native)|v0.64.3|03/14/22|Wahyu Adi Kurniawan |MIT|N/A|
